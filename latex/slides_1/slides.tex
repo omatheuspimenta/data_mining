@@ -26,7 +26,7 @@ Author: Li \textit{et al.}
 
 Journal: BMC Bioinformatics
 
-Date: Set. 2014
+Date: Sep. 2014
 
 URL: \url{https://doi.org/10.1186/1471-2105-15-311}
 
@@ -90,7 +90,7 @@ Sliding-window of length $k, k = 1,2,...,5$, which slides along the transcript o
 \begin{align}
  f_i &= \frac{c_i}{s_k}w_k,~k=1,2,3,4,5.~ i=1,2,\dots,1364\\
  s_k &= l-k+1,~k=1,2,3,4,5\\
- w_k &= \frac{1}{4{5-k}},~k=1,2,3,4,5
+ w_k &= \frac{1}{4^{5-k}},~k=1,2,3,4,5
 \end{align}
 
 \end{frame}
@@ -172,7 +172,7 @@ With a significance level of $10^{-6}$, was found that 1,278 patterns were signi
 \frametitle{Robustness to indel sequencing errors}
 \begin{figure}
 	\centering
-	\includegraphics[scale=0.45]{fig3}
+	\includegraphics[scale=0.4]{fig3}
 	\caption{Performances on transcripts derived from PacBio and 454}
 	\label{fig:fig3}
 \end{figure}
