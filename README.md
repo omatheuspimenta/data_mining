@@ -38,6 +38,6 @@ BASH commands, Feature Extraction (FE) using MathFeature approach, basic analysi
 [RNAcon - Intron _gpI](rnacon_i_gpI.csv) and [RNAcon - Intron _gpII](rnacon_i_gpII.csv)
 * Notebook: [06_feature_extraction](06_feature_extraction.ipynb)  
 * PDF: [06_feature_extraction.pdf](06_feature_extraction.pdf)  
-Data Mining analysis, Feature Extraction (FE)approaches, Feature Selection (FS) approaches, classification and evaluation.
+Data Mining analysis, Feature Extraction (FE) approaches, Feature Selection (FS) approaches, classification and evaluation.
 
 ---
